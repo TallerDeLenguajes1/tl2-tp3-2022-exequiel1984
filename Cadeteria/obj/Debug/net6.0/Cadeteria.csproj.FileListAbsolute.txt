@@ -1,0 +1,15 @@
+C:\Users\Alumno\carrizo\tl2-tp3-2022-exequiel1984\Cadeteria\bin\Debug\net6.0\Cadeteria.exe
+C:\Users\Alumno\carrizo\tl2-tp3-2022-exequiel1984\Cadeteria\bin\Debug\net6.0\Cadeteria.deps.json
+C:\Users\Alumno\carrizo\tl2-tp3-2022-exequiel1984\Cadeteria\bin\Debug\net6.0\Cadeteria.runtimeconfig.json
+C:\Users\Alumno\carrizo\tl2-tp3-2022-exequiel1984\Cadeteria\bin\Debug\net6.0\Cadeteria.dll
+C:\Users\Alumno\carrizo\tl2-tp3-2022-exequiel1984\Cadeteria\bin\Debug\net6.0\Cadeteria.pdb
+C:\Users\Alumno\carrizo\tl2-tp3-2022-exequiel1984\Cadeteria\obj\Debug\net6.0\Cadeteria.csproj.AssemblyReference.cache
+C:\Users\Alumno\carrizo\tl2-tp3-2022-exequiel1984\Cadeteria\obj\Debug\net6.0\Cadeteria.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Alumno\carrizo\tl2-tp3-2022-exequiel1984\Cadeteria\obj\Debug\net6.0\Cadeteria.AssemblyInfoInputs.cache
+C:\Users\Alumno\carrizo\tl2-tp3-2022-exequiel1984\Cadeteria\obj\Debug\net6.0\Cadeteria.AssemblyInfo.cs
+C:\Users\Alumno\carrizo\tl2-tp3-2022-exequiel1984\Cadeteria\obj\Debug\net6.0\Cadeteria.csproj.CoreCompileInputs.cache
+C:\Users\Alumno\carrizo\tl2-tp3-2022-exequiel1984\Cadeteria\obj\Debug\net6.0\Cadeteria.dll
+C:\Users\Alumno\carrizo\tl2-tp3-2022-exequiel1984\Cadeteria\obj\Debug\net6.0\refint\Cadeteria.dll
+C:\Users\Alumno\carrizo\tl2-tp3-2022-exequiel1984\Cadeteria\obj\Debug\net6.0\Cadeteria.pdb
+C:\Users\Alumno\carrizo\tl2-tp3-2022-exequiel1984\Cadeteria\obj\Debug\net6.0\Cadeteria.genruntimeconfig.cache
+C:\Users\Alumno\carrizo\tl2-tp3-2022-exequiel1984\Cadeteria\obj\Debug\net6.0\ref\Cadeteria.dll
