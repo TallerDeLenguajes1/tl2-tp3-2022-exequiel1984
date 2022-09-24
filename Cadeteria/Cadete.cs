@@ -12,5 +12,11 @@ namespace Practico3
         {
             ListadoPedidosCadete = listadoPedidosCadete;
         }
+
+        public void JornalACobrar (list<Pedidos> ListadoPedidos)
+        {
+            int Jornal = ListadoPedidos.Where(pedido => ListadoPedidos.Estado == Entredado).Sum(300);
+            System.Console.WriteLine(Jornal);
+        }
     }
 }
