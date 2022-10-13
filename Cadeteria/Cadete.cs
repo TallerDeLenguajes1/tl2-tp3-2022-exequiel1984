@@ -1,31 +1,29 @@
-using Linq;
-
 namespace Practico3
 {
     public class Cadete : Persona
     {
-        private list<Pedidos> listadoPedidosCadete;
+        private List<Pedidos> listadoPedidosCadete;
 
-        public list<Pedidos> ListadoPedidosCadete { get => listadoPedidosCadete; set => listadoPedidosCadete = value; }
+        public List<Pedidos> ListadoPedidosCadete { get => listadoPedidosCadete; set => listadoPedidosCadete = value; }
 
         public Cadete () : base() 
         {
 
         }
 
-        public Cadete(int idCadete, string nombreCadete, string direccionCadete, string telefonoCadete)
+        public Cadete(int idCadete, string[] datosCadeteCSV)
         {
             this.Id = idCadete;
-            this.Nombre = nombreCadete;
-            this.Direccion = direccionCadete;
-            this.Telefono = telefonoCadete;
-            this.ListadoPedidosCadete = new list<Pedidos>();
+            this.Nombre = datosCadeteCSV[0];
+            this.Direccion = datosCadeteCSV[1];
+            this.Telefono = datosCadeteCSV[2];
+            this.ListadoPedidosCadete = new List<Pedidos>();
         }
 
-        public float JornalACobrar ()
+        /* public float JornalACobrar ()
         {
-            float Jornal = ListadoPedidosCadete.Where(pedido => ListadoPedidos.Estado == Entregado).Sum(300);
+            float Jornal = ListadoPedidosCadete.Where(pedido => ListadoPedidosCadete.Pedidos.Estado == "Entregado").Sum(300);
             return Jornal;
-        }
+        } */
     }
 }

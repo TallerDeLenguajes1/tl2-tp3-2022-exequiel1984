@@ -4,18 +4,18 @@ namespace Practico3
     {
         private string nombre;
         private string telefono;
-        private list<Cadete> listadoCadetes;
+        private List<Cadete> listadoCadetes;
 
-        protected string Nombre { get => nombre; set => nombre = value; }
-        protected string Telefono { get => telefono; set => telefono = value; }
-        public list<Cadete> ListadoCadetes { get => listadoCadetes; set => listadoCadetes = value; }
+        public string Nombre { get => nombre; set => nombre = value; }
+        public string Telefono { get => telefono; set => telefono = value; }
+        public List<Cadete> ListadoCadetes { get => listadoCadetes; set => listadoCadetes = value; }
 
         public Cadeteria()
         {
 
         }
 
-        public Cadeteria(string nombreCadeteria, string telefonoCadeteria, list<Cadete> listadoCadetesCadeteria)
+        public Cadeteria(string nombreCadeteria, string telefonoCadeteria, List<Cadete> listadoCadetesCadeteria)
         {
             this.Nombre = nombreCadeteria;
             this.Telefono = telefonoCadeteria;

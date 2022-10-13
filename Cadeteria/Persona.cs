@@ -7,10 +7,10 @@ namespace Practico3
         private string direccion;
         private string telefono;
 
-        protected int Id { get => id; set => id = value; }
-        protected string Nombre { get => nombre; set => nombre = value; }
-        protected string Direccion { get => direccion; set => direccion = value; }
-        protected string Telefono { get => telefono; set => telefono = value; }
+        public int Id { get => id; set => id = value; }
+        public string Nombre { get => nombre; set => nombre = value; }
+        public string Direccion { get => direccion; set => direccion = value; }
+        public string Telefono { get => telefono; set => telefono = value; }
 
         public Persona () 
         {
