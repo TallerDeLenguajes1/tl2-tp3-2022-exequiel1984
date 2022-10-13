@@ -7,10 +7,10 @@ namespace Practico3
         private Cliente clientePedido;
         private string estado;
 
-        protected int Nro { get => nro; set => nro = value; }
-        protected string Obs { get => obs; set => obs = value; }
-        protected Cliente ClientePedido { get => clientePedido; set => clientePedido = value; }
-        protected string Estado { get => estado; set => estado = value; }
+        public int Nro { get => nro; set => nro = value; }
+        public string Obs { get => obs; set => obs = value; }
+        public Cliente ClientePedido { get => clientePedido; set => clientePedido = value; }
+        public string Estado { get => estado; set => estado = value; }
 
         public Pedidos () {
 

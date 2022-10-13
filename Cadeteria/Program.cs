@@ -10,39 +10,27 @@ namespace Practico3
         static void Main(string[] args)
         {
             List<Cadete> ListadoCadetes = new List<Cadete>();
+            List<Pedidos> PedidosSinAsignar = new List<Pedidos>();
 
             Cadeteria Cadeteria = CrearCadeteria.CargarDatosCadeteria("DatosCadeteria.csv");
 
             MetodosCadetes.CargarListaCadetesDesdeCSV(ListadoCadetes, "DatosCadetes.csv");
-
             
+            Pedidos NuevoPedido = MetodosPedidos.CrearPedido();
+
+            PedidosSinAsignar.Add(NuevoPedido);
 
 
-            /* FileStream MiArchivo = new FileStream("DatosCadetes.csv", FileMode.Open);
-            StreamReader StrReader = new StreamReader(MiArchivo);
-            string Linea = "";
 
-            List<string[]> LecturaDelArchivo = new List<string[]>();
 
-            while ((Linea = StrReader.ReadLine()) != null)
+            foreach (var Pedido in PedidosSinAsignar)
             {
-                string[] Fila = Linea.Split(",");
-                LecturaDelArchivo.Add(Fila);
-            }
-
-            for (int i = 0; i <= LecturaDelArchivo.Count-1; i++)
-            {
-                Cadete NuevoCadete = new Cadete(i+1, LecturaDelArchivo[i]);
-                ListadoCadetes.Add(NuevoCadete);
-            } */
-
-
-            foreach (var Cadete in ListadoCadetes)
-            {
-                Console.WriteLine(Cadete.Id);
-                Console.WriteLine(Cadete.Nombre);
+                Console.WriteLine("\nCONTROL");
+                Console.WriteLine(Pedido.ClientePedido.Nombre);
             }
 
         }
+
+        
     }
 }

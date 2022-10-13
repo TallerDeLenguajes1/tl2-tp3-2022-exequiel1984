@@ -4,7 +4,7 @@ namespace Practico3
     {
         private string datosReferenciaDireccion;
 
-        protected string DatosReferenciaDireccion { get => datosReferenciaDireccion; set => datosReferenciaDireccion = value; }
+        public string DatosReferenciaDireccion { get => datosReferenciaDireccion; set => datosReferenciaDireccion = value; }
 
         public Cliente() : base() 
         {
