@@ -11,12 +11,12 @@ namespace Practico3
 
         }
 
-        public Cadete(int idCadete, string[] datosCadeteCSV)
+        public Cadete(string[] datosCadeteCSV)
         {
-            this.Id = idCadete;
-            this.Nombre = datosCadeteCSV[0];
-            this.Direccion = datosCadeteCSV[1];
-            this.Telefono = datosCadeteCSV[2];
+            this.Id = Convert.ToInt32(datosCadeteCSV[0]);
+            this.Nombre = datosCadeteCSV[1];
+            this.Direccion = datosCadeteCSV[2];
+            this.Telefono = datosCadeteCSV[3];
             this.ListadoPedidosCadete = new List<Pedidos>();
         }
 
