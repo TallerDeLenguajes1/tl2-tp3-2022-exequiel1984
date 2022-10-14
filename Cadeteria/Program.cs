@@ -11,7 +11,7 @@ namespace Practico3
         {
             List<Pedidos> PedidosDelDia = new List<Pedidos>();
 
-            Cadeteria NuevaCadeteria = CrearCadeteria.CargarDatosCadeteria("DatosCadeteria.csv");
+            Cadeteria NuevaCadeteria = DirectorioCadeteria.CargarDatosCadeteria("DatosCadeteria.csv");
 
             MetodosCadetes metodosCadetes = new MetodosCadetes();
 

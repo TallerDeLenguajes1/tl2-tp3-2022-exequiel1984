@@ -10,11 +10,11 @@ namespace Practico3
         public string Telefono { get => telefono; set => telefono = value; }
         public List<Cadete> ListadoCadetes { get => listadoCadetes; set => listadoCadetes = value; }
 
-        public Cadeteria(string nombreCadeteria, string telefonoCadeteria, List<Cadete> listadoCadetesCadeteria)
+        public Cadeteria(string nombreCadeteria, string telefonoCadeteria)
         {
             this.Nombre = nombreCadeteria;
             this.Telefono = telefonoCadeteria;
-            this.ListadoCadetes = listadoCadetesCadeteria;
+            this.ListadoCadetes = listadoCadetes;
         }
     }
 }
