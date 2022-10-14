@@ -1,9 +1,10 @@
 namespace Practico3
 {
-    public class MetodosCadetes
+    public class DirectorioCadetes
     {
-        public void CargarListaCadetesDesdeCSV(List<Cadete> ListadoCadetes, string ArchivoCSV)
+        public void CargarListaCadetesDesdeCSV(List<Cadete> ListadoCadetes)
         {
+            string ArchivoCSV = "DatosCadetes.csv";            
             var LeerArchivoCSV = File.ReadAllLines(ArchivoCSV);
 
             for (int i = 0; i < LeerArchivoCSV.Length; i++)

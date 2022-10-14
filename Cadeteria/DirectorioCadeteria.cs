@@ -2,8 +2,9 @@ namespace Practico3
 {
     public class DirectorioCadeteria
     {
-        public static Cadeteria CargarDatosCadeteria(string ArchivoCSV)
+        public Cadeteria CargarDatosCadeteria()
         {
+            string ArchivoCSV = "DatosCadeteria.csv";
             var LeerArchivoCSV = File.ReadAllLines(ArchivoCSV);
             var LineaCSV = (LeerArchivoCSV[0]).Split(",");
             Cadeteria NuevaCadeteria = new Cadeteria(LineaCSV[0], LineaCSV[1]);

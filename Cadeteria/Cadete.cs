@@ -2,14 +2,9 @@ namespace Practico3
 {
     public class Cadete : Persona
     {
-        private List<Pedidos> listadoPedidosCadete;
+        private List<Pedidos> listadoPedidosCadete = new List<Pedidos>();
 
         public List<Pedidos> ListadoPedidosCadete { get => listadoPedidosCadete; set => listadoPedidosCadete = value; }
-
-        public Cadete () : base() 
-        {
-
-        }
 
         public Cadete(string[] datosCadeteCSV)
         {
@@ -17,7 +12,7 @@ namespace Practico3
             this.Nombre = datosCadeteCSV[1];
             this.Direccion = datosCadeteCSV[2];
             this.Telefono = datosCadeteCSV[3];
-            this.ListadoPedidosCadete = new List<Pedidos>();
+            this.ListadoPedidosCadete = listadoPedidosCadete;
         }
 
         /* public float JornalACobrar ()
